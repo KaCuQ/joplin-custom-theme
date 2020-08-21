@@ -23,13 +23,21 @@ span, div, label {
 	justify-content: flex-end !important;
 }
 #react-root > div > div > div.header > div > input[type=text] {
-	display: none !important;
+	margin: 0 !important;
+	border: transparent !important;
+	padding: 0 !important;
+	max-width: 0 !important;
+	outline-color: transparent !important;
+	border-radius: 2px;
+	transition: max-width 500ms;
 }
 #react-root > div > div > div.header > div > input[type=text]:focus {
-	display: flex !important;
-	background-color: red !important;
+    padding: 1px 6px 0px !important;
+	max-width: 300px !important;
+	border: 1px solid rgb(43, 82, 120) !important;
 }
-#react-root > div > div > div.header > div > a {
+/* Hiding this irrating text showing beside search button */
+#react-root > div > div > div.header > div > a:nth-child(3) {
 	display: none !important;
 }
 
