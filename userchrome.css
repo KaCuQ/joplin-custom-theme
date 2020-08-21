@@ -22,7 +22,16 @@ span, div, label {
 #react-root > div > div > div.header > div {
 	justify-content: flex-end !important;
 }
-
+#react-root > div > div > div.header > div > input[type=text] {
+	display: none !important;
+}
+#react-root > div > div > div.header > div > input[type=text]:focus {
+	display: flex !important;
+	background-color: red !important;
+}
+#react-root > div > div > div.header > div > a {
+	display: none !important;
+}
 
 /* Title of note and buttons (ex. labels and note properties) in one line */
 #react-root > div > div > div:nth-child(8) > div {
