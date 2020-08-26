@@ -63,6 +63,10 @@ span, div, label {
 	display: none !important;
 }
 
+/* Hiding tags list */
+.tag-list {
+	display: none !important;
+}
 
 /* Hiding panel with buttons for insta header, lists etc. */
 #react-root > div > div > div:nth-child(8) > div > div:nth-child(3) > div > div:nth-child(1) {
