@@ -19,7 +19,7 @@ hue-6-2: #e6c07b
 
 */
 
-/* Inne kolory podświetlania kodu */
+/* Slight diffrent colors for code highlight */
 .hljs {
   display: block;
   overflow-x: auto !important;
@@ -100,3 +100,52 @@ hue-6-2: #e6c07b
 .hljs-params {
 	color: #e06c75 !important;
 }
+
+
+/* Table of Content */
+
+.table-of-contents {
+	position: sticky !important;
+	top: 0;
+	right: 0;
+}
+
+.table-of-contents > ul {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;	
+	margin: 0 !important;
+	opacity: 0.8 !important;
+	background-color: hsla(212, 25%, 8%, 1) !important;
+}
+
+.table-of-contents * {
+	color: white !important;
+	text-decoration: none !important;
+	list-style: none !important;
+}
+
+.table-of-contents ul {
+	margin-left: 15px !important;
+	margin-top: 0 !important;
+}
+
+.table-of-contents > ul {
+	margin: 0 !important;
+	padding-left: 10px !important;
+	border-left: 15px solid hsla(214, 22%, 50%, 0.25) !important;
+	right: -210px !important;
+	overflow-x: hidden !important;
+	width: 200px !important;
+	transition: 300ms right !important;
+	border-radius: 10px 0 0 10px !important;
+}
+
+.table-of-contents > ul:hover {
+	right: -10px !important;
+}
+
+.table-of-contents > ul > li {
+	margin-top: 3px !important;
+}
+
