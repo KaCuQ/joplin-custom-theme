@@ -17,10 +17,12 @@ Extract .zip file.
 
 Extracted files copy/move to:
 Windows:
-C:\Users\<your_name>\.config\joplin-deskop\
+
+`C:\Users\<your_name>\.config\joplin-deskop\`
 
 Linux (Installation from snap):
-/home/<user_name>/snap/joplin-james-carroll/current/.config/joplin-desktop/
+
+`/home/<user_name>/snap/joplin-james-carroll/current/.config/joplin-desktop/`
 
 If you have problems, create issue in Issues panel. I will try to respond as fast as I can.
 
