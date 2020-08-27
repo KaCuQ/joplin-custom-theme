@@ -3,6 +3,13 @@
 Default Joplin theme wasn't satisfying me, so I created this custom theme.
 It doesn't change colors, but rather focuses on functionality and aestheticts.
 
+### Changes (for now)
+- Hiding text labels for top bar buttons.
+- Search bar on right side, expanding on hover.
+- Title of note and buttons (labels, note properies and such) in one line.
+- Hiding buttons for header, list etc.
+- Many of small changes...
+
 ### Installation
 Download this repo ('Code' button and then 'Download ZIP').
 
