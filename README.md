@@ -16,6 +16,7 @@ Download this repo ('Code' button and then 'Download ZIP').
 Extract .zip file.
 
 Extracted files copy/move to:
+
 Windows:
 
 `C:\Users\<your_name>\.config\joplin-deskop\`
