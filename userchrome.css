@@ -1,9 +1,3 @@
-/* Diffrent font for UI */
-span, div, label {
-	font-family: Hack, monospace !important;	
-}
-
-
 /* Hiding text labels and expanding slighly padding for the buttons ( these in the header ex. New Note ) */
 .button {
 	font-size: 0 !important;
